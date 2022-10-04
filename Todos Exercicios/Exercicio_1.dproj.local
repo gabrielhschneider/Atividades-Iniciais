@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/20 19:52:49.000.444,=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 20:10:31.000.309,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio1.dproj=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2022/09/20 20:34:07.000.202,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio1.pas=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 20:34:07.000.202,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio1.dfm=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/20 20:56:13.000.994,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio.dfm=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio1.dfm</Transaction>
+    <Transaction>2022/09/20 20:56:13.000.994,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio.pas=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio1.pas</Transaction>
+    <Transaction>2022/09/20 20:56:50.000.559,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio.pas=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio.pas</Transaction>
+    <Transaction>2022/09/20 20:56:50.000.559,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio.dfm=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio.dfm</Transaction>
+    <Transaction>2022/09/20 20:57:09.000.091,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio1.dproj=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Exercicio1.dproj</Transaction>
+    <Transaction>2022/09/21 18:21:46.000.808,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Exercicio professor 1.0\Exercicio.dfm=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Exercicio professor 1.0\Exercicio1.dfm</Transaction>
+    <Transaction>2022/09/21 18:21:46.000.808,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Exercicio professor 1.0\Exercicio.pas=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Exercicio professor 1.0\Exercicio1.pas</Transaction>
+    <Transaction>2022/09/21 18:51:12.000.918,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio_1.dproj=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

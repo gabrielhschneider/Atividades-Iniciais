@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/21 20:08:01.000.235,=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 20:08:20.000.035,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio1.pas=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 20:08:20.000.035,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio1.dfm=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/21 20:08:28.000.656,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio_1.dproj=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2022/09/21 20:14:18.000.020,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio_5.dproj=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio_1.dproj</Transaction>
+    <Transaction>2022/09/21 20:14:28.000.174,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio5.dfm=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio1.dfm</Transaction>
+    <Transaction>2022/09/21 20:14:28.000.174,C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio5.pas=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio proessor 2.0\Exercicio1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/21 18:40:15.000.029,=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 18:40:52.000.465,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio3.dfm</Transaction>
+    <Transaction>2022/09/21 18:40:52.000.465,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio3.pas</Transaction>
+    <Transaction>2022/09/21 18:41:06.000.965,C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\gabrielschneider\Desktop\Gabriel schneider\Programação\Exercicio professor 1.0\Exercicio_3.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
