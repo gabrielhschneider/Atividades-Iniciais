@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
 
 type
-  TEnumClientes = ( opResidencia , opComercio, opIndustria); // Enumerado
+  TEnumClientes = ( opResidencia , opComercio, opIndustria, opFazenda); // Enumerado
   TForm1 = class(TForm)
     lblTitulo: TLabel;
     edtKWtotal: TEdit;
@@ -16,10 +16,8 @@ type
     rgTipoCliente: TRadioGroup;
     procedure btnCalcularClick(Sender: TObject);
   private
-    { Private declarations }
-    function CalcularConta: String;
+    function CalcularConta(Const aExibirDesconto:Boolean): String;
   public
-    { Public declarations }
   end;
 
 var
@@ -29,21 +27,28 @@ implementation
 
 {$R *.dfm}
 
-function TForm1.CalcularConta: String; //Função que realiza o calculo
+function TForm1.CalcularConta(Const aExibirDesconto:Boolean): String; //Função que realiza o calculo da conta de luz
 var
-  xTotalKW     : Double;
   xTipoCliente : Integer;
+  xTotalKW: Double;
+  xDesconto: Double;
 begin
   xTotalKW     := StrToFloat(edtKWtotal.Text);
   xTipoCliente := rgTipoCliente.ItemIndex;
+  xDesconto := 0; //Iniciando a variavel para não pegar sujeira na memória. 
+  
+  if aExibirDesconto then  
+    xDesconto := StrToFloat(inputbox('Desconto', 'Digite o desconto se houver', 'Digite o desconto'));
 
   case TEnumClientes(xTipoCliente) of
     opResidencia:
-      result := FormatCurr('0.00', (xTotalKW * 0.60));
+      result := FormatCurr('0.00', ((xTotalKW * 0.60) - xDesconto));
     opComercio:
-      result := FormatCurr('0.00', (xTotalKW * 0.48));
+      result := FormatCurr('0.00', ((xTotalKW * 0.48) - xDesconto));
     opIndustria:
-      result := FormatCurr('0.00', (xTotalKW * 1.29));
+      result := FormatCurr('0.00', ((xTotalKW * 1.29) - xDesconto));
+    opFazenda:
+      result := FormatCurr('0.00', ((xTotalKW * 2.18) - xDesconto));
     else
       result := 'Erro: Indique um cliente válido';
   end;
@@ -51,7 +56,8 @@ end;
 
 procedure TForm1.btnCalcularClick(Sender: TObject); //Função do botão
 begin
-  ShowMessage('Sua conta de luz custou: R$ ' + CalcularConta);
+  ShowMessage('Sua conta de luz custou: R$ ' + CalcularConta(false) + ', com desconto ficou: R$' + CalcularConta(true));
 end;
+
 
 end.

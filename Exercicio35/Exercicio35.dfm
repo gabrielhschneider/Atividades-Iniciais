@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 231
+  ClientHeight = 263
   ClientWidth = 279
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -28,21 +28,21 @@ object Form1: TForm1
   end
   object lblTotalKmConsumido: TLabel
     Left = 48
-    Top = 130
+    Top = 162
     Width = 110
     Height = 13
     Caption = 'Total KW/h consumido:'
   end
   object edtKWtotal: TEdit
     Left = 48
-    Top = 149
+    Top = 181
     Width = 185
     Height = 21
     TabOrder = 0
   end
   object btnCalcular: TButton
     Left = 80
-    Top = 184
+    Top = 216
     Width = 121
     Height = 25
     Caption = 'Calcular'
@@ -53,12 +53,13 @@ object Form1: TForm1
     Left = 48
     Top = 40
     Width = 185
-    Height = 73
+    Height = 100
     Caption = 'Tipo de Cliente:'
     Items.Strings = (
       'Resid'#234'ncia'
       'Com'#233'rcio'
-      'Ind'#250'stria')
+      'Ind'#250'stria'
+      'Fazenda')
     TabOrder = 2
   end
 end
