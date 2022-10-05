@@ -38,17 +38,18 @@ begin
   xDesconto := 0; //Iniciando a variavel para não pegar sujeira na memória. 
   
   if aExibirDesconto then  
-    xDesconto := StrToFloat(inputbox('Desconto', 'Digite o desconto se houver', 'Digite o desconto'));
+    xDesconto := StrToFloat(inputbox('Desconto', 'Digite o desconto se houver',
+                                     'Digite o desconto'));
 
   case TEnumClientes(xTipoCliente) of
     opResidencia:
-      result := FormatCurr('0.00', ((xTotalKW * 0.60) - xDesconto));
+      result := FormatCurr('0.00', ((xTotalKW * 0.80) - xDesconto));
     opComercio:
-      result := FormatCurr('0.00', ((xTotalKW * 0.48) - xDesconto));
+      result := FormatCurr('0.00', ((xTotalKW * 0.68) - xDesconto));
     opIndustria:
-      result := FormatCurr('0.00', ((xTotalKW * 1.29) - xDesconto));
+      result := FormatCurr('0.00', ((xTotalKW * 1.49) - xDesconto));
     opFazenda:
-      result := FormatCurr('0.00', ((xTotalKW * 2.18) - xDesconto));
+      result := FormatCurr('0.00', ((xTotalKW * 3.18) - xDesconto));
     else
       result := 'Erro: Indique um cliente válido';
   end;
@@ -56,7 +57,8 @@ end;
 
 procedure TForm1.btnCalcularClick(Sender: TObject); //Função do botão
 begin
-  ShowMessage('Sua conta de luz custou: R$ ' + CalcularConta(false) + ', com desconto ficou: R$' + CalcularConta(true));
+  ShowMessage('Sua conta de luz custou: R$ ' + CalcularConta(false) +
+              ', com desconto ficou: R$' + CalcularConta(true));
 end;
 
 
