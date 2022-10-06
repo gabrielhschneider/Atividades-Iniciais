@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/10/05 19:44:08.467,=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 21:11:01.457,C:\Users\gabrielschneider\Documents\Devs2Blu2022\Calculando Área do Triângulo\AreaTriangulo.dfm=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/05 21:11:01.457,C:\Users\gabrielschneider\Documents\Devs2Blu2022\Calculando Área do Triângulo\AreaTriangulo.pas=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 21:11:18.666,C:\Users\gabrielschneider\Documents\Devs2Blu2022\Calculando Área do Triângulo\Area_Triangulo.dproj=C:\Users\gabrielschneider\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
